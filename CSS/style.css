@@ -1,0 +1,305 @@
+#body{
+    display: flex;
+    flex-direction: row;
+    /* border: solid; */
+    height: auto;
+}
+
+.logo{
+    width: 100px;
+    height: auto;
+}
+
+.titleName{
+    /* border: solid; */
+    margin-left: -25px;
+    margin-bottom: 4%;
+    
+
+  list-style-type: none;
+}
+
+#sideNavBar{
+width: 250px;
+/* border: solid; */
+/* justify-content: flex-start; */
+display: flex;
+flex-direction: column;
+    
+}
+
+
+#mainContent{
+   text-align: center;
+    /* border: solid; */
+    width: 100%;
+    height: 100%;
+}
+
+#h1{
+    letter-spacing: 2px;
+}
+
+#h1 span{
+
+    font-weight: 100;
+
+}
+
+
+#intro{
+    display: flex;
+    flex-direction: row;
+
+}
+
+
+.intro img{
+    height: auto;
+    width: 250px;
+}
+
+.intro{
+    width: 50%;
+}
+
+.left{
+    display: flex;
+    flex-direction: column;
+    /* align-content: center;  */
+    /* border: solid; */
+
+
+}
+
+#downloadResume{
+    width: 200px;
+}
+
+
+
+#face{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+.uxSkills{
+    display: block;
+    flex-direction: column;
+    border: solid 1px;
+    width:25%;
+    height: 45%;
+    margin: 2px;
+    margin-bottom: 15px;
+
+
+}
+
+#card{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+
+
+#aboutMe{
+    height: 30%;
+
+
+}
+
+
+
+
+#heroImage{
+   height: 65%;
+   width: 75%;
+   margin-left: 12%;
+   background-position: center;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   /* border: solid; */
+}
+
+#resume{
+   
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+  
+    
+}
+
+.detailedInformation{
+    display: block;
+    
+}
+
+.icon{
+    width: 20px;
+    height: 20px;
+}
+
+footer{
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    /* position: absolute;
+    bottom: 0; */
+    width:100%;
+    /* height: 2.5rem; */
+
+       
+   
+}
+
+.footer{
+    /* border:solid; */
+    width: 20%;
+    /* position: absolute;
+    bottom: 0;
+    width:100%;
+    height: 2.5rem; */
+
+
+}
+
+#heroImage img{
+    width: 100%;
+    height:100%;
+   
+    
+}
+
+#download{
+    position: absolute;
+    top:24%;
+
+  
+}
+
+#seeMore{
+    height: 50px;
+}
+
+
+
+
+.grid{
+    display: grid;
+    /* border: solid; */
+    width: 75%;
+    margin: 10% auto;
+    /* margin-top: none;
+    margin-bottom: none; */
+    height: 430px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 33% 33% 33%;
+    grid-template-areas:
+    "sample1 top"
+    "sample2 middle"
+    "sample3 bottom"
+    ;
+}
+
+#moreProjects{
+    margin-top: -100px;
+}
+
+#secondContent{
+/* border: solid; */
+display: block;
+text-align: center;
+
+}
+.sample1{
+    width: 100%;
+    height:100%;
+    object-fit: cover;
+    /* border:solid 1px; */
+    grid-area: sample1;
+    
+    
+}
+.sample2{
+    width: 100%;
+    height:100%;
+    object-fit: cover;
+    /* border:solid 1px; */
+    grid-area: sample2;
+    
+}
+.sample3{
+    width: 100%;
+    height:100%;
+    object-fit: cover;
+    /* border:solid 1px; */
+    grid-area: sample3;
+    
+}
+
+.top{
+    grid-area: top;
+    border:solid 1px;
+    border-left: none;
+    padding-top: 7px;
+    
+}
+.middle{
+    grid-area: middle;
+    border:solid 1px;
+    border-left: none;
+    border-top: none;
+    padding-top: 7px;
+}
+.bottom{
+    grid-area: bottom;
+    border:solid 1px;
+    border-left: none;
+    border-top: none;
+    padding-top: 7px;
+}
+
+
+#h1{
+    height: 50px;
+    /* border: solid; */
+    /* margin-top: -0.5px; */
+    margin: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+button{
+    height: 20px;
+}
+
+#headings{
+    border:solid
+}
+
+
+    #h12{
+     margin-bottom: -8%;
+     margin-top: 10%;
+    }
+
+    #uxSkills{
+
+        /* margin-top: -6%; */
+        margin-bottom: 8%;
+    }
+
+    /* @media only screen and (max-width: 600px){
+        #card {
+            display: block;
+            width: 100%;
+        
+        }} */
