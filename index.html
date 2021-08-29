@@ -1,4 +1,13 @@
-<html>
+<!DOCTYPE html>
+<html >
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nanako Kawaharada</title>
+</head>
+
+</html><html>
     <head>
 
         <link rel="stylesheet" href="CSS/style.css">
@@ -9,17 +18,25 @@
     </head>
 
     <body>
+        <div id="popup"  style= "display: none;"><div><img id="close" src="Images/close.png"></div><div id="inside">
+        <div><img id="doc" src="Images/pdf.png"><a>   Download PDF</a></div>
+           
+           <div><img id="doc" src="Images/email.png"><a>   Email Resume</a></div>
+
+
+           </div></div>
+        
         
         <section id="body">
             <div id="sideNavBar">
                 <img class="logo" src="Images/LogoTC.png">
 
                 <ul>
-                    <li class="titleName">Home</li>
-                    <li class="titleName">Who's Nanako</li>
-                    <li class="titleName">My Work</li>
-                    <li class="titleName">Resume</li>
-                    <li class="titleName">Contact</li>
+                    <li class="titleName" id="click">Home</li>
+                    <li class="titleName" id="click2">Who's Nanako</li>
+                    <li class="titleName" id="click3">My Work</li>
+                    <li class="titleName" id="click4">Resume</li>
+                    <li class="titleName" id="click5">Contact</li>
                 </ul>
 
 
@@ -48,22 +65,21 @@
                    <div > <h2 id="h12">My Work</h2></div>
                    <div class="grid">
                         <div><img class="sample1" src="Images/Frame 7.png"> </div>
-                        <div class="top">Projec Name
+                        <div class="top"><h4>FunPedia</h4>
                             <p>Paragraph</p>
-                            <button class="PD">View Project Details</button>
-                        </div>
+                           <button class="PD">View Project Details</button>                        </div>
                         <div><img class="sample2" src="Images/Case2.png"> </div>
-                        <div class="middle">Project Name
+                        <div class="middle"><h4>Canada Council for the Arts</h4>
                             <p>Paragraph</p>
                             <button class="PD">View Project Details</button>
                         </div>
                         <div><img class="sample3" src="Images/Frame 11.png"> </div>
-                        <div class="bottom">Project Name
+                        <div class="bottom"><h4>New York Public Library</h4>
                             <p>Paragraph</p>
                             <button class="PD">View Project Details</button>
                         </div>
                     </div>
-                        <!-- <button id="moreProjects">See more work</button> -->
+                        
     
 </div>
 
@@ -102,14 +118,6 @@
 </div>
         </section>
     
-
-
-        <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
-        <script src="js/index.js"></script>
-
-    </body>
-
-
         <footer>
             <div class="footer">
                 <h3>Contact</h3>
@@ -118,9 +126,9 @@
             </div>
         
             <div class="footer">
-                <img class="icon" src="Images/IGLogo.png">
-                <img class="icon" src="Images/YTLogo.png">
-                <img class="icon" src="Images/LILogo.png">
+               <div><img class="icon" src="Images/IGLogo.png"><a>Instagram</a></div>
+                <div><img class="icon" src="Images/YTLogo.png"><a>YouTube</a></div>
+               <div><img class="icon" src="Images/LILogo.png"><a>LinkedIn</a></div>
             </div>
         
             <div class="footer">
@@ -129,13 +137,22 @@
             
         </footer>
        
-   
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="JS/index.js"></script>
+
+        <div class="preloader">
+            <img src="Images/Screen Shot 2021-08-27 at 8.02.10 PM.png">
+
+ 
+          </div>
+        
+         
+
+       
 
 
-
-
-
-
+</body>
 
 
 
