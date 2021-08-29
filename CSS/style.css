@@ -164,7 +164,7 @@ footer{
     height: auto;
     display: flex;
     flex-direction: row;
-    align-items: center;
+    align-items: flex-end;
     justify-content: space-around;
     /* position: absolute;
     bottom: 0; */
@@ -247,6 +247,7 @@ text-align: center;
     grid-area: sample1;
     
     
+    
 }
 .sample2{
     width: 100%;
@@ -269,7 +270,10 @@ text-align: center;
 .top{
     grid-area: top;
     text-align: left;
-    padding-left: 10px;
+    padding-left: 20px;
+    background-color: rgb(245, 238, 238);
+    width: 85%
+    /* border-bottom: solid 1px; */
     /* border:solid 1px; */
     /* border-left: none; */
     /* padding-top: 3px; */
@@ -279,7 +283,9 @@ text-align: center;
 .middle{
     grid-area: middle;
     text-align: left;
-    padding-left: 10px;
+    padding-left: 20px;
+    width: 85%
+    /* border-bottom: solid 1px; */
     /* border:solid 1px;
     border-left: none;
     border-top: none; */
@@ -288,7 +294,10 @@ text-align: center;
 .bottom{
     grid-area: bottom;
     text-align: left;
-    padding-left: 10px;
+    padding-left: 20px;
+    background-color:rgb(245, 238, 238);
+    width: 85%
+    /* border-bottom: solid 1px; */
     /* border:solid 1px;
     border-left: none;
     border-top: none; */
