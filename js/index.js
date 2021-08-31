@@ -1,4 +1,4 @@
-
+console.log("My js file is working!");
 
 
   $( "#downloadResume" ).click(function() {
