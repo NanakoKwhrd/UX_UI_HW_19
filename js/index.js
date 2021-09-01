@@ -18,7 +18,7 @@ console.log("My js file is working!");
 
 function fade() {
   $('.preloader').fadeOut("slow");
-  }
+  };
   setTimeout(fade, 3000);
 
 
