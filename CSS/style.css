@@ -432,3 +432,7 @@ button{
               /* border:solid; */
               margin-top: -50px;
           }
+
+          #intro p{
+              line-height: 30px;
+          }
